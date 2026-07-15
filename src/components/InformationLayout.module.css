@@ -1,0 +1,32 @@
+.information {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 250px;
+  transition: all 0.3s ease;
+}
+
+.turn {
+  color: #4a4a4a;
+  background: #f0f0f0;
+}
+
+.winner {
+  color: #27ae60;
+  background: #d5f5e3;
+  animation: pulse 0.6s ease;
+}
+
+.draw {
+  color: #e67e22;
+  background: #fdebd0;
+  animation: pulse 0.6s ease;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
